@@ -13,7 +13,7 @@ function App() {
       <Menu />
       <div className="flex flex-col flex-1 items-start">
         {/* HERO */}
-        <div className="flex items-center justify-center py-16  shadow">
+        <div className="flex items-center justify-center py-16 mt-20 shadow">
           <div className="w-5/12">
             <h1 className="text-blue-500 text-4xl font-medium">
               Soluções Inteligentes para seu Negócio !
@@ -29,7 +29,7 @@ function App() {
         </div>
 
         {/* SERVICOS */}
-        <div id="servicos" className="flex flex-col gap-8 items-center py-12">
+        <div id="servicos" className="flex flex-col gap-8 items-center py-20">
           <Title title="Serviços" />
           <div className="flex gap-4 justify-center">
             <Servico title="Consultoria TI">
@@ -59,7 +59,7 @@ function App() {
         </div>
 
         {/* SOBRE */}
-        <div id="sobre" className=" flex flex-col items-center gap-8 py-12">
+        <div id="sobre" className=" flex flex-col items-center gap-8 py-20">
           <div className="flex justify-center">
             <div className="w-4/12 flex flex-col justify-center gap-8">
               <div className="">
@@ -85,7 +85,7 @@ function App() {
         </div>
 
         {/* CONTATO */}
-        <div className="bg-gray-900 text-white w-full py-8 flex flex-col items-center gap-8">
+        <div className="bg-gray-900 text-white w-full py-12 flex flex-col items-center gap-8">
           <h2 className="text-3xl text-center">
             Procurando serviços de qualidade <br /> para{" "}
             <b>seu próximo projeto?</b>
